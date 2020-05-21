@@ -1,0 +1,282 @@
+body{
+	margin: 0;
+}
+.container{
+	width: 90%;
+	margin: auto;
+}
+.header-area{
+	background-color: #3B5998;
+	padding: 10px 0;
+	font-family: sans-serif; 
+
+}
+.logo-area{
+	width: 30%;
+	float: left;
+	text-align: right;
+
+}
+.login-area{
+	width: 70%;
+	overflow: hidden;
+	color: white;
+	font-size: 12px;
+
+}
+.login-area label, .login-area input{
+	display: block;
+}
+.login-area .username-area{
+	float: left;
+	margin-right: 15px;
+}
+.login-area .password-area{
+	float: left;
+	margin-right: 15px;
+}
+.login-area .submit-area{
+	overflow: hidden;
+}
+.login-area input{
+	margin: 5px 0 2px;
+	border: 1px solid #1D2A5B;
+	padding: 2px;
+}
+.login-area form{
+	float: right;
+	margin-right: 25%; 
+}
+.login-area a{
+	color: #8FB4CC;
+	font-size: 12px;
+	text-decoration: none;
+}
+.login-area a:hover{
+	text-decoration: underline;
+}
+.submit-area input{
+	cursor:pointer;
+	margin-top: 19px;
+	font-size: 12px;
+	background-color: #3282b8;
+	color: white;
+	padding: 3px 5px;
+}
+.submit-area input:hover{
+	background-color: #3B5998;
+}
+/**++++++++++++Main Area+++++++++++++++++++**/
+.main-area{
+	background-image: linear-gradient(white , #D7DBEA);
+	font-family: sans-serif;
+}
+.left-area{
+	width: 50%;
+	float: left;
+	text-align: right;
+	margin-right: 5%;
+}
+.left-area h2{
+	color: #0E385F;
+	font-size:20px;
+	margin-right: 10%;
+	margin-top: 40px;
+}
+.left-area img{
+	width: 70%;
+}
+.right-area{
+	width: 45%;
+	overflow: hidden;
+}
+.right-area h3{
+	color: #1D2B52;
+	font-weight: 400;
+}
+.right-area input[type="text"],
+.right-area input[type="password"]{
+	display: block;
+	font-size: 20px;
+	border:1px solid #8FB4D8;
+	box-sizing: border-box;
+	margin-bottom:10px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	width: 70%;
+}
+.right-area input[type="text"]:first-child{
+	width: 34%;
+	float: left;
+	margin-right: 2%;
+
+}
+.right-area input[type="text"]:nth-child(2){
+	width: 34%;
+	overflow: hidden;
+}
+.birthday-select select{
+	padding: 6px 3px;
+	border: 1px solid #83B4D4;
+
+}
+.right-area a{
+	text-decoration: none;
+	color: #387DC3;
+}
+.right-area a:hover{
+	text-decoration: underline;
+}
+.right-area label{
+	color: #1D2129;
+}
+.right-area h2{
+	color:#9094A7;
+}
+.right-area p{
+	font-size: 12px;
+	display: block;
+	width: 40%;
+}
+.right-area input[type="button"]{
+	background-color: #669E51;
+	color: white;
+	font-weight: 700;
+	font-size: 20px;
+	width: 190px;
+	height: 40px;
+	border:none;
+	border-radius: 5px;
+}
+.page{
+	font-size: 14px;margin-top: 30px;
+}
+/**++++++++Footer Area++++++++++++++++**/
+.footer-area{
+	font-family: sans-serif;
+	font-size: 12px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.footer-area a{
+	text-decoration: none;
+	color: #387DC3;
+}
+.footer-area a:hover{
+	text-decoration: underline;
+}
+.footer-area ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.footer-area ul li{
+	float: left;
+}
+.footer-top,
+.footer-bottom{
+	overflow: hidden;
+	padding: 10px 0;
+}
+.footer-top ul li{
+	margin-right: 15px;
+}
+.footer-top ul li:last-child {
+	font-weight: 700;
+	font-size: 18px
+	padding: 2px 10px;
+	background: #E6E8F2;
+}
+.footer-bottom ul li{
+	margin-right: 20px;
+	padding-bottom: 5px;
+	font-size: 13px;
+}
+.footer-top{
+	width: 60%;
+	margin: auto;
+}
+.footer-area hr{
+	background: #387DC3;
+	width:60%;
+}
+.footer-bottom{
+	width: 60%;
+	margin: auto;
+}
+.footer-area h6{
+	color: #387DC3;
+	margin-left: 20%;
+}
+
+ 
+
+
+
+
+
+
+@media all and (max-width:950px ) {
+	.logo-area{
+		float: none;
+		margin-bottom: 20px;
+		text-align: center;
+		width: 100%;
+	}
+	.login-area{
+		width: 100%;
+	}
+	.login-area form{
+		float: none;
+		width: 425px;
+		margin: auto;
+	}
+	.left-area{
+		float: none;
+		width: 100%;
+	}
+	.right-area{
+		width: 100%;
+	}
+	.footer-top{
+		width: 100%
+	}
+	.footer-bottom{
+		width: 100%;
+	}
+	.footer-area h6{
+		margin-left: 0;
+	}
+}
+@media all and (max-width: 500px) {
+	.login-area form{
+		width: auto;
+	}
+	.login-area .username-area{
+		float: none;
+	}
+	.login-area .password-area{
+		float: none;
+	} 
+	.login-area input[type="text"] ,
+	.login-area input[type="password"] {
+		width: 100%;
+	}
+	.left-area{
+		float: none;
+		width: 100%;
+	}
+	.right-area{
+		width: 100%;
+	}
+	.footer-top{
+		width: 100%
+	}
+	.footer-bottom{
+		width: 100%;
+	}
+	.footer-area h6{
+		margin-left: 0;
+	}
+}
+
